@@ -148,6 +148,7 @@ export default function Footer() {
               hideThumb={true}
               size="sm"
               onChange={handleVolume}
+              defaultValue={20}
               startContent={(() => {
                 if (volume === 0)
                   return (

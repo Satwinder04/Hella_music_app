@@ -89,7 +89,7 @@ export default function Home() {
             onEnded={() => setIsPlaying(false)}
           /> */}
 
-          <div className="w-full flex gap-4 flex-nowrap overflow-x-auto">
+           <div className="w-full flex gap-4 flex-wrap pb-4 justify-between">
             {songs.map((song, idx) => (
               <div key={idx} className="max-w-40 flex-shrink-0 rounded-2xl overflow-hidden">
                 <div className="w-full h-40 relative">

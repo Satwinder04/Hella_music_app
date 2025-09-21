@@ -73,11 +73,11 @@ export default function ClientLayout({
               <div className="p-4 text-black flex items-center justify-between border-b border-transparent border-b-black/10">
                 <div className="flex items-center justify-between w-full ">
                   <div className="flex items-center gap-4">
-                    <Input
-                      placeholder="Search"
-                      radius="sm"
-                      endContent={<Search className="text-black/50" />}
-                    />
+                    {/* <div className="p-4 pb-0"> */}
+                      <h1 className="text-2xl  font-light text-black/80">
+                        HELLa<span className="text-red-500 font-extrabold">.</span>
+                      </h1>
+                    {/* </div> */}
                   </div>
 
                   <Button

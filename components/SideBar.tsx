@@ -138,13 +138,13 @@ export default function SideBar({
 
   return (
     <div className="flex flex-col justify-between h-screen gap-4">
-      <div className="p-4 pb-0">
+      {/* <div className="p-4 pb-0">
         <h1 className="text-2xl  font-light text-black/80 mb-4 px-2">
           HELLa<span className="text-red-500 font-extrabold">.</span>
         </h1>
-      </div>
+      </div> */}
 
-      <div className="flex flex-col gap-1 px-4">
+      <div className="flex flex-col gap-1 px-4 pt-4">
         <Link href="/" className={linkClasses("/")}>
           <House className="scale-75" />
           <div className="px-2">Home</div>
