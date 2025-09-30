@@ -1,69 +1,51 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "Hella Music App",
+  description: "A beautiful music streaming app built with Next.js and HeroUI.",
   navItems: [
     {
       label: "Home",
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Library",
+      href: "/library",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
+      label: "Search",
+      href: "/search",
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "My Library",
+      href: "/library",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Search",
+      href: "/search",
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: "Playlists",
+      href: "/playlists",
     },
     {
-      label: "Team",
-      href: "/team",
+      label: "Favorites",
+      href: "/favorites",
     },
     {
-      label: "Calendar",
-      href: "/calendar",
+      label: "Recently Played",
+      href: "/recent",
     },
     {
       label: "Settings",
       href: "/settings",
     },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
-    },
   ],
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    github: "https://github.com/Satwinder04/hella-music-app",
+    twitter: "https://twitter.com/your-twitter",
+    docs: "https://github.com/your-username/hella-music-app",
   },
 };
