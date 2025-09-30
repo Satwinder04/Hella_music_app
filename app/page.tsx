@@ -15,7 +15,7 @@ export default function Home() {
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState<string | null>(null);
 
-  const apiUrl = "http://localhost:3000";
+  const apiUrl = "https://hella-music-app.vercel.app";
 
   React.useEffect(() => {
     fetch(`${apiUrl}/api/songs`)
@@ -25,7 +25,7 @@ export default function Home() {
         setLoading(false);
       })
       .catch(() => {
-        fetch(`http://192.168.1.35:3000/api/songs`)
+        fetch(`https://hella-music-app.vercel.app/api/songs`)
           .then((res) => res.json())
           .then((song) => {
             setSongs(song || []);

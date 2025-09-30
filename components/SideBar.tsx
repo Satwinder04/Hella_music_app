@@ -54,7 +54,7 @@ export default function SideBar({
   const linkClasses = (href: string) =>
     `flex justify-start items-center w-full cursor-pointer bg-white/10 p-2 rounded-lg text-black
      ${pathname === href ? "shadow-md -translate-y-px" : ""}`;
-  const apiUrl = "http://localhost:3000";
+  const apiUrl = "https://hella-music-app.vercel.app/";
   console.log("first");
   React.useEffect(() => {
     fetch(`${apiUrl}/api/songs`)
@@ -65,7 +65,7 @@ export default function SideBar({
       })
       .catch((err) => {
         try {
-          fetch(`http://192.168.1.35:3000/api/songs`)
+          fetch(`https://hella-music-app.vercel.app/api/songs`)
             .then((res) => res.json())
             .then((song) => {
               setSongs(song || []);

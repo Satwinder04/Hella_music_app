@@ -50,7 +50,7 @@ export default function Search() {
 
   const { setSong } = usePlayer();
 
-  const apiUrl = "http://localhost:3000";
+  const apiUrl = "https://hella-music-app.vercel.app/";
 
   useEffect(() => {
     if (!query.trim()) {
